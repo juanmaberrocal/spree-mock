@@ -18,6 +18,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
+# Add Spree extensions
+gem 'spree_i18n', git: 'git://github.com/spree/spree_i18n.git', branch: '3-1-stable'
+gem 'spree_simple_sales', github: 'juanmaberrocal/spree-mock-extension', branch: '3-1-stable' #custom extension
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
